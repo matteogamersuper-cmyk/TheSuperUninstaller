@@ -20,5 +20,7 @@ To build a standalone, single-file, and compressed executable for distribution, 
 dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -p:EnableCompressionInSingleFile=true
 ```
 
+---
+
 ⚠️ Disclaimer
 This tool reads system registry keys to list installed programs. Machine-wide software detection relies on standard Windows registry structures. Use responsibly!
